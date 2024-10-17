@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: com.example.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 3.349 s <<< FAILURE! -- in com.example.AppTest
+com.example.AppTest.shouldAnswerWithTrue -- Time elapsed: 2.287 s <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created
+from unknown error: cannot find Chrome binary 
+Host info: host: 'ANAS', ip: '20.20.22.227'
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+	at com.example.AppTest.setUp(AppTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.AppTest.testGoogleSearch -- Time elapsed: 1.034 s <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created
+from unknown error: cannot find Chrome binary 
+Host info: host: 'ANAS', ip: '20.20.22.227'
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
+	at com.example.AppTest.setUp(AppTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
